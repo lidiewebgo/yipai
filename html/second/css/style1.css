@@ -10,12 +10,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     position: absolute;
     right: 7%;
 }
-.langer::before {
-    content: "联系我们获取完整图册";
-    padding-left: 10px;
-}
+
 .pic_pc3 img {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 .addres {
     display: flex;
@@ -26,6 +23,16 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 }
 .icons {
     padding-top: 0!important;
+    position: relative;
+    left: -7%;
+}
+.content {
+    position: relative;
+    left: 100%;
+}
+.container{
+    position: relative;
+    left: -15%;
 }
 /*-- /search --*/
 
