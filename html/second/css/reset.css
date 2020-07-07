@@ -1,0 +1,47 @@
+/**{font-family:Microsoft Yahei,"宋体",Arial,Helvetica,sans-serif,Tahoma;margin:0;padding:0;border:0;}*/
+
+
+html,body{font-size:100px;}
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,button,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,b, i,dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, 
+summary,time, mark, audio, video {vertical-align:baseline;background:transparent;}
+p{-webkit-text-size-adjust:none;/*禁止文字自动计算大小*/max-height:999999px;}
+h1,h2,h3,h4,h5,h6,em,i {font-weight: 100;font-style: normal}
+img{display:block;}
+input:focus,input,button{outline:none;vertical-align:middle;}
+input[type="text"], input[type="button"], input[type="submit"], input[type="reset"] {-webkit-appearance: none;border-radius: 0;	}
+ul,ol,li {list-style: none}
+textarea {-webkit-appearance: none;border-radius: 0;outline: none;}
+a {text-decoration: none;color:black;
+
+-webkit-transition: 0.3s;
+-moz-transition: 0.3s;
+-o-transition: 0.3s;
+transition: 0.3s;
+}
+a:link, a:visited {text-decoration: none;}
+a:active, a:hover {text-decoration: none;outline: none;}
+a:focus {text-decoration: none;outline: 0;}
+/*兼容时使用，需要html5.js*/
+article,aside,dialog,footer,header,section,footer,nav,figure,menu{display:block}
+.clearfloat {clear:both;height:0;font-size: 1px;line-height: 0px;}
+
+/*常用样式*/
+.w_100{width: 100%;}
+.h_100{height:100%;}
+.of{overflow: hidden;}
+/*定位*/
+.re{position: relative;}
+.ab{position: absolute;}
+.fi{position: fixed;}
+
+
+/*flex*/
+.flex{display:flex;display:-webkit-flex;display:-ms-flexbox;}
